@@ -83,6 +83,7 @@ class ExtraSongState extends MusicBeatState
 			case 5:
 				//top 10 songs
 				addWeek(['Slices']. 1, ['bandu']);
+				//have to add other songs
 			case 6:
 				//cover songs
 				addWeek(['Sunshine', 'Left-Unchecked', 'Thunderstorm', 'Collision'], 2, ['doll', 'unchecked_icon', 'dave-png', 'diamond']);
