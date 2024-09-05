@@ -62,6 +62,7 @@ class ExtraSongState extends MusicBeatState
 				addWeek(['Sugar-Rush', 'Gift-Card', 'The-Big-Dingle', 'Dale', 'Origin', 'Apprentice', 'Resumed', 'Ready-Loud', 'Bookworm', 'Cuberoot', 'Alternate',
 				'Unhinged', 'Theft', 'Too-Shiny'], 2, ['bandu', 'bandu', 'dingle', 'dale', 'bandu-origin', 'tristan', 'dambu', 'flumpt', 'bookworm', 'disability', 'david',
 				'unhinged', 'garrett', 'diamond']);
+				addWeek(['Sart-Producer'], 4, ['sart-producer']);
 				//have to add other songs
 			case 1:
 				//oc songs
@@ -77,21 +78,16 @@ class ExtraSongState extends MusicBeatState
 				//have to add other songs
 			case 4:
 				//secret songs
-				addWeek(['Dave-x-Bambi-Shipping-Cute', 'RECOVERED-PROJECT'], 1, ['dave-good', 'RECOVERED_PROJECT']);
+				addWeek(['Dave-x-Bambi-Shipping-Cute', 'Ticking', 'RECOVERED-PROJECT'], 1, ['dave-good', 'ouch', 'RECOVERED_PROJECT']);
 				//have to add other songs
 			case 5:
 				//top 10 songs
-				//since there is nothing there is gonna be a null object reference
+				addWeek(['Slices']. 1, ['bandu']);
 			case 6:
 				//cover songs
 				addWeek(['Sunshine', 'Left-Unchecked', 'Thunderstorm', 'Collision'], 2, ['doll', 'unchecked_icon', 'dave-png', 'diamond']);
 				//have to add other songs
 		}
-
-		// addWeek(['Sugar-Rush', 'Origin', 'Metallic', 'Strawberry', 'Keyboard', 'Cycles'], 2, ['bandu-candy', 'bandu-origin', 'ringi', 'bambom', 'bendu', 'sart-producer']);
-        // addWeek(['Thunderstorm', 'Wheels', 'Dave-x-Bambi-Shipping-Cute', 'RECOVERED-PROJECT'], 1, ['dave-png', 'dave-wheels', 'dave-good', 'RECOVERED_PROJECT']);
-		//addWeek(['Sart-Producer'], 4, ['sart-producer']); //i can't tell if this was removed since i can't even open dnb due to shaders being shit on wineskin.
-
         grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
 
